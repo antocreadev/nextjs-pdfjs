@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-export default function Test() {
+export default function Pdf() {
   const canvasRef = useRef(null);
   const renderTaskRef = useRef(null);
   const [numberPage, setNumberPage] = useState(1);
